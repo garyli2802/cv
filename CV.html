@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="img/yeungkinli_resume-1.png" style="width:100%">
+  </div>
+  <a href="img/yeungkinli_resume.pdf"><img src="img/icons8-export-pdf-40.png">Gary's resume</a>
+  <br>
+  <a href="img/LIYeungKin_Gary-CV.pdf"><img src="img/icons8-export-pdf-40.png">Gary's CV</a>
+
+</div>
+
+
+
+<br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+var slides = document.getElementsByClassName("mySlides");
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("mySlides");
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+
+</body>
+</html> 
+
